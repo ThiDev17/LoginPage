@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#ecf0f1;
+}
+
+.first-content{
+    display: flex;
+    display:;
+}
+
+
+
+.content::before{
+    content: "";
+    position: absolute;
+    background-color:#58af9b;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.first-column{
+    flex-direction: column;
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+.second-column{
+   flex: 2 0 auto;
+   cursor: pointer;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+
+
+    
+}
+
+.title-second{
+    color: #58af9b;
+
+}
+.content{
+    background-color:#fff;
+    border-radius: 15px;
+    width: 960px;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 55%;
+
+    
+}
+
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary{
+ color: #fff;
+
+}
+.title-ben{
+    color: whitesmoke;
+}
+.lista-social-media{
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+}
+
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    width: 150px;
+    margin-top: 1rem;
+    
+
+   
+
+}
+
+
+.btn-primary{
+    background-color: transparent;
+    font-size: 10px;
+    text-transform:uppercase ;
+    padding: 10px 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+
+    
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #58af9b;
+}
+
+.btn-3{
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    background-color: #fff;
+   
+
+}
+.btn-3:hover{
+    background-color: #58af9b;
+}
+.item-social-media{
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 35px; 2313
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.title2{
+    color: #7f7f7f;
+}
+
+.form input{
+    height: 45px;
+    border: none;
+    background-color: #ecf0f1;
+    width: 100%;
+}
+
+.label-input{
+    background-color:#ecf0f1 ;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.second-contend{
+    position: absolute;
+    display:flex;
+
+}
