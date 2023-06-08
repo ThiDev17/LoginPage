@@ -50,6 +50,7 @@ legend{
     box-sizing: border-box;
 }
 .inputBox > label{
+    cursor: pointer;
     color: #e8e5ff;
     margin-bottom: 10px;
 }

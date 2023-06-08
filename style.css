@@ -50,18 +50,19 @@ body * {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #090057;
+    color: #f1f1f1;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #0f0099;
 }
 
 .card-login > h1 {
-    color: #C147E9;
+    color: #f3f1f3;
     font-weight: 800;
     margin: 0;
 }
 
 .textfield{
+    color: #f5f5f5;
     width: 100%;
     display: flex;
     flex-direction: column;
