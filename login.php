@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icons8" type="imagem" href="favcon/icons8-fantasma-50.png">
     <title>Tela de login</title>
+   
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
@@ -152,6 +154,7 @@ box-shadow: 0px 10px 40px -12px #0f0099;
 }
         }
     </style>
+    
 </head>
 <body>
     <div class="container">
