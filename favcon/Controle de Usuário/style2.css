@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #03001C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #090057;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #0f0099;
+}
+fieldset{
+border: none;
+}
+legend{
+    color: #C147E9;
+    font-size: xx-large;
+    margin: 0;
+    text-align: center;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #1500d6;
+    color: #f0ffff94;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #0f0099;
+    box-sizing: border-box;
+}
+.inputBox > label{
+    cursor: pointer;
+    color: #e8e5ff;
+    margin-bottom: 10px;
+}
+.inputBox > input::placeholder{
+    color: #f0ffff94;
+} 
+#submit{
+        width: 100%;
+        padding: 15px 0px;
+        margin: 0px;
+        border: none;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #10009e;
+        background: #C147E9;
+        cursor: pointer;
+        box-shadow: 0px 10px 40px -12px #0f0099;    
+}
+#update{
+        width: 100%;
+        padding: 15px 0px;
+        margin: 0px;
+        border: none;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #10009e;
+        background: #C147E9;
+        cursor: pointer;
+        box-shadow: 0px 10px 40px -12px #0f0099;
+}
+
