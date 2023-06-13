@@ -1,7 +1,6 @@
-# LoginPage
-Trabalho em equipe desenvolvido para disciplina de Desenvolvimento WEB.
 
-# LoginPage
+
+# Controle de Usuário
 Trabalho em equipe desenvolvido para disciplina de Desenvolvimento WEB.
 
 
